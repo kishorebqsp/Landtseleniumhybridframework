@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Loginpage {
+import generic.Basepage;
+
+public class Loginpage extends Basepage{
 	@FindBy(xpath="//span[.='Hello, Sign in']")
 	private WebElement signinbutton;
 	

@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Phonepage {
+import generic.Basepage;
+
+public class Phonepage extends Basepage{
 
 	@FindBy(xpath = "(//span[.='Add to Cart'])[2]")
 	private WebElement cart;

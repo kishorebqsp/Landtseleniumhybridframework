@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Homepage {
+import generic.Basepage;
+
+public class Homepage extends Basepage {
 	@FindBy(id="twotabsearchtextbox")
 	private WebElement serach;
 	
